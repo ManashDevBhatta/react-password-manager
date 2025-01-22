@@ -80,7 +80,7 @@ const Manager = () => {
               Manager
               <span className="text-green-400">/&gt;</span>
             </h1>
-            <p className="text-green-400 text-lg text-center">
+            <p className="text-green-400 text-lg text-center ">
               Manage Your Passwords
             </p>
           </div>
@@ -137,9 +137,9 @@ const Manager = () => {
           </div>
 
           <div className="passwords">
-            <h2 className="text-white font-bold text-2xl py-4">Your Passwords</h2>
+            <h2 className="text-white font-bold text-2xl px-10 py-7">Your Passwords</h2>
             {passwordArray.length === 0 && (
-              <div className="text-gray-500">No passwords to show</div>
+              <div className="text-gray-500 px-10 ">No passwords to show</div>
             )}
 
             {passwordArray.length !== 0 && (
