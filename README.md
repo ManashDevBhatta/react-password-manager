@@ -29,3 +29,7 @@ A simple and secure password manager built with React. This application allows u
    npm install
    npm start
    ```
+   ## Deployment
+   You can view the live deployment of this project at the following link:
+   
+   [Deployment Link](https://relaxed-travesseiro-439769.netlify.app/)
